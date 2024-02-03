@@ -32,7 +32,7 @@ GROUP BY sales.customer_id
 - Customer B spent $74.
 - Customer C spent $36.
 
-### 1. How many days has each customer visited the restaurant?
+### 2. How many days has each customer visited the restaurant?
 ```sql
 SELECT customer_id, 
 	COUNT(distinct order_date) as days_visited
