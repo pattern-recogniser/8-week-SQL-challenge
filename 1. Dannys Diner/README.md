@@ -47,6 +47,8 @@ GROUP BY customer_id;
 | A           | 4            |
 | B           | 6            |
 | C           | 2            |
+
+
 The date range for this data is from `2021-01-01` to `2021-02-01`. In the span of 30 days:
  - Customer A has visited 4 times.
  - Customer B has visited 6 times.
